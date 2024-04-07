@@ -16,8 +16,12 @@
 						<span
 							class="text-h4 font-italic font-weight-thin d-flex align-center"
 						>
-							<RunSvg style="height: 40px; width: 40px"></RunSvg>
-							<span>Search Search Go...</span>
+							<!-- <RunSvg style="height: 40px; width: 40px"></RunSvg> -->
+							<img
+								src="@/assert/logo.png"
+								style="height: 55px; width: 55px"
+							>
+							<span>云寻</span>
 						</span>
 						<MainMenu></MainMenu>
 					</div>
@@ -62,9 +66,9 @@ const defaultData = { data: [], total: 0 };
 
 const descriptionPrefix = query ? `正在搜索“ ${query} ”... ，这是` : "";
 useSeoMeta({
-	ogTitle: "SearchSearchGo--新一代阿里云盘搜索引擎",
-	ogDescription: `${descriptionPrefix}一款极简体验、优雅、现代化、资源丰富、免费、无需登录的新一代阿里云盘搜索引擎，来体验找寻资源的快乐吧~`,
-	ogImage: "https://ssgo.app/logobg.png",
+	ogTitle: "云寻--新一代网盘搜索引擎",
+	ogDescription: `${descriptionPrefix}一款极简体验、优雅、现代化、资源丰富、免费、无需登录的新一代网盘搜索引擎，来体验找寻资源的快乐吧~`,
+	ogImage: "https://pan.zhsong.cn/logobg.png",
 	twitterCard: "summary",
 });
 

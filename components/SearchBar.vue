@@ -5,7 +5,7 @@
 		menu-icon=""
 		prepend-inner-icon="mdi-magnify"
 		clearable
-		placeholder="新一代阿里云盘搜索引擎..."
+		placeholder="新一代网盘搜索引擎..."
 		variant="solo-filled"
 		no-data-text="暂无合适的搜索建议..."
 		:loading="isLoadingSuggest"

@@ -30,17 +30,7 @@
 						本站链接为程序自动收集自互联网，链接跳转至官方网盘，网站本身不储存、复制、传播、控制编辑任何网盘文件，也不提供下载服务；
 					</p>
 					<p class="mt-2">
-						2.本站遵守相关法律法规，坚决杜绝一切违规不良信息，如您发现任何涉嫌违规的网盘信息，请立即向<a
-							href="https://terms.alicdn.com/legal-agreement/terms/suit_bu1_dingtalk/suit_bu1_dingtalk202103181300_11832.html"
-							>网盘官方网站</a
-						>举报；
-					</p>
-					<p class="mt-2">
-						3.
-						本站是笔者在线作品演示网站，所有服务仅供学习交流使用，搜索引擎技术细节可以访问笔者的<a
-							href="https://justin3go.com"
-							>个人博客</a
-						>查找。
+						2.本站遵守相关法律法规，坚决杜绝一切违规不良信息，如您发现任何涉嫌违规的网盘信息，请立即向网盘官方网站举报；
 					</p>
 				</v-card-text>
 
@@ -76,12 +66,12 @@ const menuItems = ref([
 		icon: "mdi-theme-light-dark",
 		clickFn: toggleTheme,
 	},
-	{
-		title: "意见反馈",
-		icon: "mdi-github",
-		clickFn: () =>
-			window.open("https://github.com/Justin3go/SearchSearchGo", "_blank"),
-	}
+	// {
+	// 	title: "意见反馈",
+	// 	icon: "mdi-github",
+	// 	clickFn: () =>
+	// 		window.open("https://github.com/Justin3go/SearchSearchGo", "_blank"),
+	// }
 ]);
 </script>
 
